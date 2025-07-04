@@ -1,0 +1,594 @@
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ python3 hash-id.py
+/home/alfonz/Downloads/John-the-Ripper-The-Basics/Task04/hash-id.py:15: SyntaxWarning: invalid escape sequence '\ '
+  #    /\ \/\ \                   /\ \         /\__  _\  /\  _ `\         #
+   #########################################################################
+   #     __  __                     __           ______    _____           #
+   #    /\ \/\ \                   /\ \         /\__  _\  /\  _ `\         #
+   #    \ \ \_\ \     __      ____ \ \ \___     \/_/\ \/  \ \ \/\ \        #
+   #     \ \  _  \  /'__`\   / ,__\ \ \  _ `\      \ \ \   \ \ \ \ \       #
+   #      \ \ \ \ \/\ \_\ \_/\__, `\ \ \ \ \ \      \_\ \__ \ \ \_\ \      #
+   #       \ \_\ \_\ \___ \_\/\____/  \ \_\ \_\     /\_____\ \ \____/      #
+   #        \/_/\/_/\/__/\/_/\/___/    \/_/\/_/     \/_____/  \/___/  v1.2 #
+   #                                                             By Zion3R #
+   #                                                    www.Blackploit.com #
+   #                                                   Root@Blackploit.com #
+   #########################################################################
+--------------------------------------------------
+ HASH: 1A732667F3917C0F4AA98BB13011B9090C6F8065
+
+Possible Hashs:
+[+] SHA-1
+[+] MySQL5 - SHA-1(SHA-1($pass))
+
+Least Possible Hashs:
+[+] Tiger-160
+[+] Haval-160
+[+] RipeMD-160
+[+] SHA-1(HMAC)
+[+] Tiger-160(HMAC)
+[+] RipeMD-160(HMAC)
+[+] Haval-160(HMAC)
+[+] SHA-1(MaNGOS)
+[+] SHA-1(MaNGOS2)
+[+] sha1($pass.$salt)
+[+] sha1($salt.$pass)
+[+] sha1($salt.md5($pass))
+[+] sha1($salt.md5($pass).$salt)
+[+] sha1($salt.sha1($pass))
+[+] sha1($salt.sha1($salt.sha1($pass)))
+[+] sha1($username.$pass)
+[+] sha1($username.$pass.$salt)
+[+] sha1(md5($pass))
+[+] sha1(md5($pass).$salt)
+[+] sha1(md5(sha1($pass)))
+[+] sha1(sha1($pass))
+[+] sha1(sha1($pass).$salt)
+[+] sha1(sha1($pass).substr($pass,0,3))
+[+] sha1(sha1($salt.$pass))
+[+] sha1(sha1(sha1($pass)))
+[+] sha1(strtolower($username).$pass)
+--------------------------------------------------
+ HASH: D7F4D3CCEE7ACD3DD7FAD3AC2BE2AAE9C44F4E9B7FB802D73136D4C53920140A
+
+Possible Hashs:
+[+] SHA-256
+[+] Haval-256
+
+Least Possible Hashs:
+[+] GOST R 34.11-94
+[+] RipeMD-256
+[+] SNEFRU-256
+[+] SHA-256(HMAC)
+[+] Haval-256(HMAC)
+[+] RipeMD-256(HMAC)
+[+] SNEFRU-256(HMAC)
+[+] SHA-256(md5($pass))
+[+] SHA-256(sha1($pass))
+--------------------------------------------------
+ HASH: c5a60cc6bbba781c601c5402755ae1044bbf45b78d1183cbf2ca1c865b6c792cf3c6b87791344986c8a832a0f9ca8d0b4afd3d9421a149d57075e1b4e93f90bf
+
+Possible Hashs:
+[+] SHA-512
+[+] Whirlpool
+
+Least Possible Hashs:
+[+] SHA-512(HMAC)
+[+] Whirlpool(HMAC)
+--------------------------------------------------
+ HASH: c5a60cc6bbba781c601c5402755ae1044bbf45b78d1183cbf2ca1c865b6c792cf3c6b87791344986c8a832a0f9ca8d0b4afd3d9421a149d57075e1b4e93f90bf
+
+Possible Hashs:
+[+] SHA-512
+[+] Whirlpool
+
+Least Possible Hashs:
+[+] SHA-512(HMAC)
+[+] Whirlpool(HMAC)
+--------------------------------------------------
+ HASH: 5460C85BD858A11475115D2DD3A82333
+
+Possible Hashs:
+[+] MD5
+[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+
+Least Possible Hashs:
+[+] RAdmin v2.x
+[+] NTLM
+[+] MD4
+[+] MD2
+[+] MD5(HMAC)
+[+] MD4(HMAC)
+[+] MD2(HMAC)
+[+] MD5(HMAC(Wordpress))
+[+] Haval-128
+[+] Haval-128(HMAC)
+[+] RipeMD-128
+[+] RipeMD-128(HMAC)
+[+] SNEFRU-128
+[+] SNEFRU-128(HMAC)
+[+] Tiger-128
+[+] Tiger-128(HMAC)
+[+] md5($pass.$salt)
+[+] md5($salt.$pass)
+[+] md5($salt.$pass.$salt)
+[+] md5($salt.$pass.$username)
+[+] md5($salt.md5($pass))
+[+] md5($salt.md5($pass))
+[+] md5($salt.md5($pass.$salt))
+[+] md5($salt.md5($pass.$salt))
+[+] md5($salt.md5($salt.$pass))
+[+] md5($salt.md5(md5($pass).$salt))
+[+] md5($username.0.$pass)
+[+] md5($username.LF.$pass)
+[+] md5($username.md5($pass).$salt)
+[+] md5(md5($pass))
+[+] md5(md5($pass).$salt)
+[+] md5(md5($pass).md5($salt))
+[+] md5(md5($salt).$pass)
+[+] md5(md5($salt).md5($pass))
+[+] md5(md5($username.$pass).$salt)
+[+] md5(md5(md5($pass)))
+[+] md5(md5(md5(md5($pass))))
+[+] md5(md5(md5(md5(md5($pass)))))
+[+] md5(sha1($pass))
+[+] md5(sha1(md5($pass)))
+[+] md5(sha1(md5(sha1($pass))))
+[+] md5(strtoupper(md5($pass)))
+--------------------------------------------------
+ HASH: d5nGupBm29pYr$yugXSk24ZljLTAZZagtGwpSQhb3F2DOJtnHrvk7HI2ma4GsuioHp8sm3LJiRJpKfIf7lZQ29qgtH17Q
+
+ Not Found.
+--------------------------------------------------
+ HASH: 7bf6d9bb82bed1302f331fc6b816aada
+
+Possible Hashs:
+[+] MD5
+[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+
+Least Possible Hashs:
+[+] RAdmin v2.x
+[+] NTLM
+[+] MD4
+[+] MD2
+[+] MD5(HMAC)
+[+] MD4(HMAC)
+[+] MD2(HMAC)
+[+] MD5(HMAC(Wordpress))
+[+] Haval-128
+[+] Haval-128(HMAC)
+[+] RipeMD-128
+[+] RipeMD-128(HMAC)
+[+] SNEFRU-128
+[+] SNEFRU-128(HMAC)
+[+] Tiger-128
+[+] Tiger-128(HMAC)
+[+] md5($pass.$salt)
+[+] md5($salt.$pass)
+[+] md5($salt.$pass.$salt)
+[+] md5($salt.$pass.$username)
+[+] md5($salt.md5($pass))
+[+] md5($salt.md5($pass))
+[+] md5($salt.md5($pass.$salt))
+[+] md5($salt.md5($pass.$salt))
+[+] md5($salt.md5($salt.$pass))
+[+] md5($salt.md5(md5($pass).$salt))
+[+] md5($username.0.$pass)
+[+] md5($username.LF.$pass)
+[+] md5($username.md5($pass).$salt)
+[+] md5(md5($pass))
+[+] md5(md5($pass).$salt)
+[+] md5(md5($pass).md5($salt))
+[+] md5(md5($salt).$pass)
+[+] md5(md5($salt).md5($pass))
+[+] md5(md5($username.$pass).$salt)
+[+] md5(md5(md5($pass)))
+[+] md5(md5(md5(md5($pass))))
+[+] md5(md5(md5(md5(md5($pass)))))
+[+] md5(sha1($pass))
+[+] md5(sha1(md5($pass)))
+[+] md5(sha1(md5(sha1($pass))))
+[+] md5(strtoupper(md5($pass)))
+--------------------------------------------------
+ HASH: 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+  
+┌──(alfonz㉿kali)-[~]
+└─$ cd Downloads/John-the-Ripper-The-Basics/Task04 
+                                                                                                                                                                                                                                            
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ ls
+hash1.txt  hash2.txt  hash3.txt  hash4.txt  hash-id.py
+                                                                                                                                                                                                                                            
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=md5 --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash1.txt 
+Unknown ciphertext format name requested
+                                                                                                                                                                                                                                            
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash1.txt 
+Warning: detected hash type "LM", but the string is also recognized as "dynamic=md5($p)"
+Use the "--format=dynamic=md5($p)" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "HAVAL-128-4"
+Use the "--format=HAVAL-128-4" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "MD2"
+Use the "--format=MD2" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "mdc2"
+Use the "--format=mdc2" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "mscash"
+Use the "--format=mscash" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "mscash2"
+Use the "--format=mscash2" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "NT"
+Use the "--format=NT" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "Raw-MD4"
+Use the "--format=Raw-MD4" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "Raw-MD5"
+Use the "--format=Raw-MD5" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "Raw-MD5u"
+Use the "--format=Raw-MD5u" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "Raw-SHA1-AxCrypt"
+Use the "--format=Raw-SHA1-AxCrypt" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "ripemd-128"
+Use the "--format=ripemd-128" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "Snefru-128"
+Use the "--format=Snefru-128" option to force loading these as that type instead
+Warning: detected hash type "LM", but the string is also recognized as "ZipMonster"
+Use the "--format=ZipMonster" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+Loaded 2 password hashes with no different salts (LM [DES 256/256 AVX2])
+Warning: poor OpenMP scalability for this hash type, consider --fork=20
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:00 DONE (2025-07-04 21:37) 0g/s 12122Kp/s 12122Kc/s 24245KC/s 0122788..*7¡VA
+Session completed. 
+                                                                                                                                                                                                                                            
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=raw-md5 --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash1.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=20
+Press 'q' or Ctrl-C to abort, almost any other key for status
+biscuit          (?)     
+1g 0:00:00:00 DONE (2025-07-04 21:38) 100.0g/s 268800p/s 268800c/s 268800C/s skyblue..nugget
+Use the "--show --format=Raw-MD5" options to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                                                                                                                                            
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ cat hash2.txt                                 
+1A732667F3917C0F4AA98BB13011B9090C6F8065
+                                                                                                                                                                                                                                            
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=raw-md5 --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash2.txt
+Using default input encoding: UTF-8
+No password hashes loaded (see FAQ)
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=raw-sha1 --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash2.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-SHA1 [SHA1 256/256 AVX2 8x])
+Warning: no OpenMP support for this hash type, consider --fork=20
+Press 'q' or Ctrl-C to abort, almost any other key for status
+kangeroo         (?)     
+1g 0:00:00:00 DONE (2025-07-04 21:39) 50.00g/s 5857Kp/s 5857Kc/s 5857KC/s karate2..kalvin1
+Use the "--show --format=Raw-SHA1" options to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ cat hash3.txt 
+D7F4D3CCEE7ACD3DD7FAD3AC2BE2AAE9C44F4E9B7FB802D73136D4C53920140A
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=raw-sha256 --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash3.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-SHA256 [SHA256 256/256 AVX2 8x])
+Warning: poor OpenMP scalability for this hash type, consider --fork=20
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+microphone       (?)     
+1g 0:00:00:00 DONE (2025-07-04 21:40) 50.00g/s 16384Kp/s 16384Kc/s 16384KC/s 123456..01diva
+Use the "--show --format=Raw-SHA256" options to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ cat hash4.txt
+c5a60cc6bbba781c601c5402755ae1044bbf45b78d1183cbf2ca1c865b6c792cf3c6b87791344986c8a832a0f9ca8d0b4afd3d9421a149d57075e1b4e93f90bf
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=raw-whirlpool --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash4.txt
+Unknown ciphertext format name requested
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ john --format=whirlpool --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt hash4.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (whirlpool [WHIRLPOOL 32/64])
+Warning: poor OpenMP scalability for this hash type, consider --fork=20
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+colossal         (?)     
+1g 0:00:00:00 DONE (2025-07-04 21:43) 12.50g/s 8704Kp/s 8704Kc/s 8704KC/s grass9..aportodas
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task04]
+└─$ cd                                            
+                                                                                                                    
+┌──(alfonz㉿kali)-[~]
+└─$ cd /home/alfonz/Downloads/John-the-Ripper-The-Basics/Task05 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task05]
+└─$ ls
+ntlm.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task05]
+└─$ cat ntlm.txt                                               
+5460C85BD858A11475115D2DD3A82333
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task05]
+└─$ john --format=NT --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt ntlm.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (NT [MD4 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=20
+Press 'q' or Ctrl-C to abort, almost any other key for status
+mushroom         (?)     
+1g 0:00:00:00 DONE (2025-07-04 21:46) 50.00g/s 153600p/s 153600c/s 153600C/s skater1..dangerous
+Use the "--show --format=NT" options to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task05]
+└─$ cd..                                                       
+cd..: command not found
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task05]
+└─$ cd ..                                                      
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics]
+└─$ cd Task06 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task06]
+└─$ ls
+etc_hashes.txt  local_passwd  local_shadow
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task06]
+└─$ cat etc_hashes.txt 
+This is everything I managed to recover from the target machine before my computer crashed... See if you can crack the hash so we can at least salvage a password to try and get back in.
+
+root:x:0:0::/root:/bin/bash
+root:$6$Ha.d5nGupBm29pYr$yugXSk24ZljLTAZZagtGwpSQhb3F2DOJtnHrvk7HI2ma4GsuioHp8sm3LJiRJpKfIf7lZQ29qgtH17Q/JDpYM/:18576::::::
+
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task06]
+└─$ john --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt --format=sha512crypt etc_hashes.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+1234             (root)     
+1g 0:00:00:00 DONE (2025-07-04 21:49) 4.347g/s 11130p/s 11130c/s 11130C/s 123456..hassan
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task06]
+└─$ cd ..             
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics]
+└─$ cd Task07
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ ls
+hash07.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ john --single --format=raw-sha256 hash07.txt 
+Using default input encoding: UTF-8
+No password hashes loaded (see FAQ)
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ john --single --format=raw-md5 hash07.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=20
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+0g 0:00:00:00 DONE (2025-07-04 21:52) 0g/s 0p/s 0c/s 0C/s
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ cat hash07.txt    
+7bf6d9bb82bed1302f331fc6b816aada
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ john --single --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt --format=raw-md5 hash07.txt 
+Invalid options combination: "--wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt"
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ john --single --format=raw-md5 hash07.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=20
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+0g 0:00:00:00 DONE (2025-07-04 21:54) 0g/s 0p/s 0c/s 0C/s
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ john --single --format=raw-md5 path/to/hashes
+stat: path/to/hashes: No such file or directory
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ john --single --format=raw-md5 hash07.txt    
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=20
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+0g 0:00:00:00 DONE (2025-07-04 21:54) 0g/s 0p/s 0c/s 0C/s
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task07]
+└─$ cd            
+                                                                                                                    
+┌──(alfonz㉿kali)-[~]
+└─$ cd /home/alfonz/Downloads/John-the-Ripper-The-Basics/Task09
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ ls
+secure.zip
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ zip2john secure.zip > ziphash.txt
+ver 1.0 efh 5455 efh 7875 secure.zip/zippy/flag.txt PKZIP Encr: 2b chk, TS_chk, cmplen=38, decmplen=26, crc=849AB5A6 ts=B689 cs=b689 type=0
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ ls
+secure.zip  ziphash.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ cat ziphash.txt                                            
+secure.zip/zippy/flag.txt:$pkzip$1*2*2*0*26*1a*849ab5a6*0*48*0*26*b689*964fa5a31f8cefe8e6b3456b578d66a08489def78128450ccf07c28dfa6c197fd148f696e3a2*$/pkzip$:zippy/flag.txt:secure.zip::secure.zip
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ john --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt ziphash.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+pass123          (secure.zip/zippy/flag.txt)     
+1g 0:00:00:00 DONE (2025-07-04 21:58) 50.00g/s 2048Kp/s 2048Kc/s 2048KC/s 123456..loserface1
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ unzip secure.zip  
+Archive:  secure.zip
+[secure.zip] zippy/flag.txt password: 
+ extracting: zippy/flag.txt          
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ ls
+secure.zip  ziphash.txt  zippy
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ cat ziphash.txt 
+secure.zip/zippy/flag.txt:$pkzip$1*2*2*0*26*1a*849ab5a6*0*48*0*26*b689*964fa5a31f8cefe8e6b3456b578d66a08489def78128450ccf07c28dfa6c197fd148f696e3a2*$/pkzip$:zippy/flag.txt:secure.zip::secure.zip
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$     cd zippy 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09/zippy]
+└─$ ls
+flag.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09/zippy]
+└─$ cat flag.txt   
+THM{w3ll_d0n3_h4sh_r0y4l}
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09/zippy]
+└─$ cd ..                                                      
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ cd Task10
+cd: no such file or directory: Task10
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task09]
+└─$ cd ..    
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics]
+└─$ cd Task10
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ ls
+secure.rar
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ rar2john secure.rar > rarhash.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ john --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt rarhash.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (RAR5 [PBKDF2-SHA256 256/256 AVX2 8x])
+Cost 1 (iteration count) is 32768 for all loaded hashes
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+password         (secure.rar)     
+1g 0:00:00:00 DONE (2025-07-04 22:00) 4.347g/s 2782p/s 2782c/s 2782C/s 123456..pebbles
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ unzip secure.rar 
+Archive:  secure.rar
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of secure.rar or
+        secure.rar.zip, and cannot find secure.rar.ZIP, period.
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ unrar x secure.rar 
+
+UNRAR 7.11 freeware      Copyright (c) 1993-2025 Alexander Roshal
+
+Enter password (will not be echoed) for secure.rar: 
+
+
+Extracting from secure.rar
+
+Extracting  flag.txt                                                  OK 
+All OK
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ ls
+flag.txt  rarhash.txt  secure.rar
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ cat flag.txt
+THM{r4r_4rch1ve5_th15_t1m3}
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task10]
+└─$ cd ..       
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics]
+└─$ cd Task11
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task11]
+└─$ ls
+id_rsa
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task11]
+└─$ ssh2john id_rsa > rsahash.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task11]
+└─$ ls
+id_rsa  rsahash.txt
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task11]
+└─$ john --wordlist=/home/alfonz/Downloads/John-the-Ripper-The-Basics/rockyou.txt rsahash.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (SSH, SSH private key [RSA/DSA/EC/OPENSSH 32/64])
+Cost 1 (KDF/cipher [0=MD5/AES 1=MD5/3DES 2=Bcrypt/AES]) is 0 for all loaded hashes
+Cost 2 (iteration count) is 1 for all loaded hashes
+Will run 20 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+mango            (id_rsa)     
+1g 0:00:00:00 DONE (2025-07-04 22:03) 50.00g/s 216000p/s 216000c/s 216000C/s pothead..doodles
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                    
+┌──(alfonz㉿kali)-[~/Downloads/John-the-Ripper-The-Basics/Task11]
+└─$ 
